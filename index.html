@@ -9,6 +9,14 @@
   <link rel="stylesheet" href="style.css" />
 
 </head>
+
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    if (!location.hash) {
+      location.hash = '#home';
+    }
+  });
+</script>
 </body>
 
 <!-- navbar -->
@@ -22,13 +30,13 @@
 </nav>
 
 <!-- Home Section -->
-<section id="home" class="home-section active">
+<section id="home" class="home-section active ">
   <h1 class="hero-heading">Hello, I am <br> Trishad Phogole</h1>
   <img src="Image.jpeg" class="home-img" alt="Trish profile photo">
 </section>
 
 <!-- Project Section -->
-<section id="projects"class="project-section active">
+<section id="projects"class="project-section ">
   <h1 class="project-heading">Some of My Projects</h1>
   <!-- Project Card 1 -->
   <div class="project-container">
@@ -37,11 +45,11 @@
       <div class="project-content">
         <h1 class="project-title">Project 01</h1>
         <p class="project-info">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          The Projects Features Detection of Breast Cancer Using Machine Learning. It has been tested that while there exists several machine learning models,Support Vector Machine (SVM) is reported to have highest accuracy of (approximately 97%) in detecting breast cancer.
         </p>
         <div class="project-btn-grp">
-          <button class="project-btn github">GitHub Repo</button>
-          <button class="project-btn live">See Live</button>
+         <a href="https://github.com/TrishadKano/DATA-SCIENTIST.git" class="project-btn github" target="_blank">GitHub Repo</a>
+          <a href="https://your-live-demo-link.com" class="project-btn live" target="_blank">See Live</a>
         </div>
       </div>
     </div>
@@ -52,10 +60,10 @@
       <div class="project-content">
         <h1 class="project-title">Project 02</h1>
         <p class="project-info">
-          A machine learning model deployed using Streamlit to predict customer churn based on behavioral data.
+          In this project, I explored the Boston Housing dataset to develop a predictive model for house prices. The goal was to understand how various features influence housing costs and to accurately estimate prices using machine learning techniques.
         </p>
         <div class="project-btn-grp">
-          <a href="https://github.com/your-username/project2" class="project-btn github" target="_blank">GitHub Repo</a>
+          <a href="https://github.com/TrishadKano/DATA-SCIENTIST.git" class="project-btn github" target="_blank">GitHub Repo</a>
           <a href="https://your-live-demo-link.com" class="project-btn live" target="_blank">See Live</a>
         </div>
       </div>
@@ -67,10 +75,10 @@
       <div class="project-content">
         <h1 class="project-title">Project 03</h1>
         <p class="project-info">
-          A Python data pipeline using Pandas and SQL to clean, transform, and load data from CSV to a MySQL database.
+         Developed an interactive dashboard to analyse car sales performance across multiple regions, aimed at uncovering trends and supporting data-driven decisions.
         </p>
         <div class="project-btn-grp">
-          <a href="https://github.com/your-username/project3" class="project-btn github" target="_blank">GitHub Repo</a>
+          <a href="https://github.com/TrishadKano/DATA-SCIENTIST.git" class="project-btn github" target="_blank">GitHub Repo</a>
           <a href="https://your-live-demo-link.com" class="project-btn live" target="_blank">See Live</a>
         </div>
       </div>
@@ -82,10 +90,10 @@
       <div class="project-content">
         <h1 class="project-title">Project 04</h1>
         <p class="project-info">
-          A Flask-based API that provides real-time predictions for housing prices using a trained regression model.
+          This project focuses on exploring and visualising data from the Udemy course marketplace to uncover trends and insights. By analysing attributes such as course prices, ratings, and categories, it provides a clearer understanding of the dynamics within the e-learning platform.
         </p>
         <div class="project-btn-grp">
-          <a href="https://github.com/your-username/project4" class="project-btn github" target="_blank">GitHub Repo</a>
+          <a href="https://github.com/TrishadKano/DATA-SCIENTIST.git" class="project-btn github" target="_blank">GitHub Repo</a>
           <a href="https://your-live-demo-link.com" class="project-btn live" target="_blank">See Live</a>
         </div>
       </div>
@@ -94,7 +102,7 @@
 </section>
 
 <!-- about section -->
-<section id="about"class="about-section active">
+<section id="about"class="about-section ">
     <div class="about">
         <div class="about-img-container">
             <img src="Image.jpeg" class="about-img" alt="">
@@ -106,7 +114,7 @@ With a passion for transforming complex datasets into clear, actionable insights
     </div>
 
  <!-- skills -->
-<div class="skill-section active">
+<div class="skill-section ">
     <h1 class="heading">skills</h1>
     <div class="skills-container">
         <div class="skill-card">
@@ -200,7 +208,7 @@ With a passion for transforming complex datasets into clear, actionable insights
         </div>
 
         <div class="Github-Logo">
-          <a href="https://github.com/TrishadKano/DATA-SCIENTIST.git" target="_blank" >
+          <a href="https://github.com/TrishadKano?tab=repositories" target="_blank" >
             <img src="github-sign.png" class="skill-img" alt="R">
             </a>
       <span class="icon-label">Github</span>
