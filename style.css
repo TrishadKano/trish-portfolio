@@ -86,7 +86,7 @@ body{
     color: 	#e0e0e0;
     font-size: 120px;
     text-transform: capitalize;
-    font-weight: 300;
+    font-weight: 400;
     text-align: center;
     
 }
@@ -241,9 +241,11 @@ body{
 
 .about-info{
     color: #fff;
-    
     font-size: 20px;
     line-height: 40px;
+}
+.about-info:hover{
+  font-weight: bold;  
 }
 
 .about-img{
@@ -307,6 +309,11 @@ body{
   padding: 15px;          /* some padding so content doesn’t touch border */
   border-radius: 8px;     /* optional: rounded corners */
   box-sizing: border-box;
+}
+
+.skill-card:hover{
+ font-weight: bold;
+
 }
 
 .skill-img{
@@ -397,6 +404,9 @@ body{
     margin: -80px 0;
     position: relative;
     background: #f00;
+}
+.card:hover{
+    font-weight: bold;
 }
 
 .card:nth-child(even){
@@ -529,7 +539,12 @@ body{
     padding: 5px 10px;
 
 }
-
+.contact-form input:hover{
+    font-weight: bold;
+} 
+.contact-form textarea:hover{
+    font-weight: bold;
+}
 
 ::placeholder{
 
@@ -575,11 +590,11 @@ body{
 }
 
 .form-submit-btn:hover{
-    color: white;
+    font-weight: bold;
 }
 
 .form-submit-btn:active {
-    font-weight: bold;
+    color: black;
 }
 
 /*section {
