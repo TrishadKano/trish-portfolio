@@ -211,7 +211,9 @@ body{
 .project-card:hover .project-img{
     filter: blur(20px);
 }
-
+.project-card{
+    height: auto;   
+}
 .project-card:hover .project-content{
     opacity: 1;
 }
@@ -724,4 +726,11 @@ section.active {
   align-items: center;
   gap: 180px;
   margin-top: 30px;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #666;
+    background-color: #f9f9f9;
 }
