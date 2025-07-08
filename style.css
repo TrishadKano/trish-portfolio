@@ -37,7 +37,7 @@ body{
 }
 
 .link a{
-    color: white;
+    /*color: white;*/
     opacity: 0.5;
     text-decoration: none;
     text-transform: capitalize;
@@ -46,12 +46,8 @@ body{
     line-height: 80px;
     transition: .5s;
     font-size: 30px;
+    color: #00CED1
     
-
-
-  
-    font-weight: normal;
-    transition: font-weight 0.3s ease;
 }
 .link.active a {
     font-weight: bold;
