@@ -733,3 +733,12 @@ section.active {
     color: #666;
     background-color: #f9f9f9;
 }
+
+.project-subheading {
+  font-size: 1.8rem;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: white; /* Adjust to match your theme */
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
