@@ -45,7 +45,7 @@ body{
     margin: 0 20px;
     line-height: 80px;
     transition: .5s;
-    font-size: 30px;
+    font-size: 40px;
     color: #00CED1
     
 }
@@ -133,7 +133,10 @@ body{
 }
 
 .project-heading:hover {
-     color: #cccccc;
+     /*color: #cccccc;*/
+     background: #00CED1;
+     color: #000;
+     transform: scale(1,1);
 }
 .project-container{
     display: grid;
@@ -208,13 +211,15 @@ body{
 }
 
 .project-card:hover .project-img{
-    filter: blur(20px);
+     filter: blur(20px);
+    
 }
 .project-card{
     height: auto;   
 }
 .project-card:hover .project-content{
     opacity: 1;
+    
 }
 
 /* about-section */
@@ -313,7 +318,9 @@ body{
 }
 
 .skill-card:hover{
- font-weight: bold;
+ background: #00CED1;
+ color: #000;
+ transform: scale(1,1);
 
 }
 
