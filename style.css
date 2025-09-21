@@ -54,7 +54,10 @@ body{
 }
 .link a:hover, .link.active a{
     opacity: 1;
-    transform: scale(120%); /* Enlarge to 120% */
+    background: #00CED1;
+    color: #000;
+    transform: scale(1,1);
+     /* Enlarge to 120% */
 }
 
 /* home section  ??????*/
@@ -211,9 +214,12 @@ body{
 }
 
 .project-card:hover .project-img{
-     filter: blur(20px);
-    
+     filter: blur(20px);    
 }
+.project-info:hover{
+font-weight: bold; 
+} 
+
 .project-card{
     height: auto;   
 }
