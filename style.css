@@ -268,7 +268,7 @@ font-weight: bold;
 }
 
 .download-cv-btn{
-    position: absolute;
+    position: relative;
     background-color: black; 
     bottom: 20px;
     left: 50%;
@@ -285,8 +285,12 @@ font-weight: bold;
 }
 
 .download-cv-btn:hover{
-   /* background: #000;*/
-    color: #007bff;
+
+     opacity: 1;
+    background: #00CED1;
+    color: #000;
+    transform: scale(1,1);
+    font-weight: bold; 
 }
 
 /* skills */
@@ -327,6 +331,7 @@ font-weight: bold;
  background: #00CED1;
  color: #000;
  transform: scale(1,1);
+ font-weight: bold; 
 
 }
 
