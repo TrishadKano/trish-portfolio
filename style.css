@@ -212,7 +212,13 @@ body{
     background: none;
     border: 2px solid #fff;
 }
-
+.project-btn:hover{
+opacity: 1;
+    background: #00CED1;
+    color: #000;
+    transform: scale(1,1);
+    font-weight: bold; 
+}
 .project-card:hover .project-img{
      filter: blur(20px);    
 }
@@ -286,7 +292,7 @@ font-weight: bold;
 
 .download-cv-btn:hover{
 
-     opacity: 1;
+    opacity: 1;
     background: #00CED1;
     color: #000;
     transform: scale(1,1);
