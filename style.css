@@ -223,7 +223,7 @@ opacity: 1;
      filter: blur(20px);    
 }
 .project-info:hover{
-font-weight: bold; 
+/*font-weight: bold; */
 } 
 
 .project-card{
