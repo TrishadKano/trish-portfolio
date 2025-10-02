@@ -4,34 +4,26 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Personal  Portfolio</title>
-
+  <title>Personal Portfolio</title>
   <link rel="stylesheet" href="style.css" />
-
 </head>
-
-<script>
-  window.addEventListener('DOMContentLoaded', () => {
-    if (!location.hash) {
-      location.hash = '#home';
-    }
-  });
-</script>
-</body>
+<body>
 
 <!-- navbar -->
 <nav class="navbar">
     <ul class="link-group">
-        <li class="link active"><a href="#home"><img src="home-button.png" alt="Home" style="width:30px; height: 30px; vertical-align:middle; margin-right: 8px;">home</a></li>
-        <li class="link"><a href="#about"><img src="id-card.png" alt="Home" style="width:30px; height: 30px; vertical-align:middle; margin-right: 8px;">about</a></li>
-        <li class="link"><a href="#projects"><img src="portfolio-management.png" alt="Home" style="width:30px; height: 30px; vertical-align:middle; margin-right: 8px;">projects</a></li>
-        <li class="link"><a href="#contact"><img src="operator.png" alt="Home" style="width:30px; height: 30px; vertical-align:middle; margin-right: 8px;">contact</a></li>
-        
+        <li class="link active"><a href="#home"><img src="home-button.png" alt="Home" style="width:30px; height: 30px; vertical-align:middle; margin-right: 8px;">HOME</a></li>
+        <li class="link"><a href="#about"><img src="id-card_.png" alt="About" style="width:30px; height: 30px; vertical-align:middle; margin-right: 8px;">ABOUT</a></li>
+        <li class="link"><a href="#experience"><img src="suitcase.png" alt="Experience" style="width:30px; height: 30px; vertical-align:middle; margin-right: 8px;">EXPERIENCE</a></li>
+        <li class="link"><a href="#skills"><img src="skill-development.png" alt="Skills" style="width:30px; height: 30px; vertical-align:middle; margin-right: 8px;">SKILLS</a></li>
+        <li class="link"><a href="#certifications"><img src="award.png" alt="Certifications" style="width:30px; height: 30px; vertical-align:middle; margin-right: 8px;">CERTIFICATES</a></li>
+        <li class="link"><a href="#projects"><img src="portfolio-management.png" alt="Projects" style="width:30px; height: 30px; vertical-align:middle; margin-right: 8px;">PROJECTS</a></li>
+        <li class="link"><a href="#contact"><img src="operator.png" alt="Contact" style="width:30px; height: 30px; vertical-align:middle; margin-right: 8px;">CONTACT</a></li>
     </ul>
 </nav>
 
 <!-- Home Section -->
-<section id="home" class="home-section active ">
+<section id="home" class="home-section active">
 <h1 class="hero-heading">
  <span style="color: #00CED1; font-weight: bold;">Hello</span>,I am <br> Trishad Phogole<br>
   <span style="color: #00CED1; font-weight: bold;">A Data Scientist</span><br>&  Aspiring<br>
@@ -41,7 +33,7 @@
 </section>
 
 <!-- about section -->
-<section id="about"class="about-section ">
+<section id="about" class="about-section">
     <div class="about">
         <div class="about-img-container">
             <img src="WhatsApp Image 2025-07-07 at 14.20.15.jpeg" class="about-img" alt="">
@@ -56,83 +48,133 @@ leveraging advanced technologies to optimise operations, drive innovation, and s
 decision-making. Recognised for strong problem-solving and building end-to-end data solutions that support business objectives. Currently, I am also building expertise as an <span style="color: #00CED1; font-weight: bold;"><strong>Aspiring Data Engineer</strong></span>, focusing on data pipelines, cloud platforms, and scalable data systems to complement my strong analytical background.</p>
     </div>
 
- <!-- skills -->
-<div class="skill-section ">
+    <!-- timeline -->
+    <div class="timeline">
+        <h1 class="heading">education</h1>
+
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title">2015 - 2019</h1>
+                <strong>High School:</strong> Kgagatlou Secondary School<br><br>
+                <p class="card-detail"><strong>Matric</strong></p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title">2020 - 2023</h1>
+                <strong>Institution:</strong> University of Limpopo<br><br>
+                <p class="card-detail"><strong>Degree:</strong> Bachelor of Science in Mathematical Science</p>
+                <strong>Majors:</strong> Statistics and Computer Science<br><br>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title">2024 - 2024</h1>
+                <strong>Institution:</strong> University of Limpopo<br><br>
+                <p class="card-detail"><strong>Degree:</strong> Bachelor of Science Honours in Computer Science</p>
+                <strong>Major:</strong> Computer Science<br><br>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- experience section -->
+<section id="experience" class="experience-section">
+    <h1 class="heading">Work Experience</h1>
+    <div class="experience-container">
+        <div class="experience-card">
+            <div class="experience-header">
+                <img src="logo-resized-mintek-with-text.29ddd1cc.png" class="company-logo" alt="Mintek">
+                <div class="experience-title">
+                    <h2 class="company-name">Mintek</h2>
+                    <h3 class="job-title">Data Scientist</h3>
+                    <p class="experience-period">March 2025 - Present | Full-time</p>
+                </div>
+            </div>
+            <div class="experience-content">
+                <ul class="experience-responsibilities">
+                    <li>Develop, test, and deploy machine learning models to optimise organisational operations and enhance decision-making, including fine-tuning algorithms for improved performance.</li>
+                    <li>Perform A/B testing on machine learning models to compare algorithm performance and feature variations, achieving up to 20% improvement in model selection.</li>
+                    <li>Design and maintain organisational Key Performance Indicators (KPIs) dashboards to support real-time tracking and performance monitoring, reducing manual reporting time by 40%.</li>
+                    <li>Execute ETL processes to mine, clean, and integrate data from multiple sources such as SharePoint, databases, and Excel into dashboards for streamlined reporting and analysis.</li>
+                    <li>Leverage SQL to extract, transform, and analyse datasets with thousands of records, optimising query performance, reducing processing time, and ensuring 99% data accuracy in reports.</li>
+                    <li>Translate complex data into impactful business insights, contributing to a 15% improvement in operational efficiency and enhanced strategic planning outcomes.</li>
+                    <li>Collaborate with cross-functional teams to deliver data-driven recommendations, resulting in a 20% increase in overall operational performance.</li>
+      
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- skills section -->
+<section id="skills" class="skill-section">
     <h1 class="heading">skills</h1>
     <div class="skills-container">
         <div class="skill-card">
             <img src="python.png" class="skill-img" alt="Python">
-        
             <h1 class="skill-name">Python</h1>
             <p class="skill-info">Proficient in Python for data analysis, data cleaning, web scraping, automation, and developing machine learning models using libraries like Pandas, NumPy, Scikit-learn, Matplotlib and Seaborn.</p>
-            
         </div>
 
         <div class="skill-card">
             <img src="Power-BI-Logo-700x394.png" class="skill-img" alt="Data Visualization">
-            
             <h1 class="skill-name">Microsoft Power BI</h1>
             <p class="skill-info">Proficient in developing interactive dashboards and reports using Power BI Desktop and Power BI Service</p>
         </div>
 
         <div class="skill-card">
             <img src="mysql.png" class="skill-img" alt="Machine Learning">
-        
             <h1 class="skill-name">MySQL</h1>
             <p class="skill-info">Proficient in designing, creating, and managing relational databases using MySQL, and also writing complex SQL queries for data extraction, transformation, and analysis</p>
         </div>
+        
         <div class="skill-card">
             <img src="sql-server.png" class="skill-img" alt="Machine Learning">
-        
             <h1 class="skill-name">SQL Server</h1>
-            <p class="skill-info">Proficient in designing, developing, and managing databases using SQL Server Management Studio (SSMS),and also writing T-SQL queries for data retrieval, manipulation, and analysis</p>
+            <p class="skill-info">Proficient in designing, developing, and managing databases using SQL Server Management Studio (SSMS)</p>
         </div>
          
         <div class="skill-card">
             <img src="excel.png" class="skill-img" alt="Data Visualization">
-            
             <h1 class="skill-name">Microsoft Excel</h1>
             <p class="skill-info">Proficient in data analysis and manipulation using functions such as VLOOKUP, HLOOKUP, INDEX-MATCH, and nested IF statements,and also using pivot tables and pivot charts to summarise and analyse large datasets efficiently</p>
         </div>
 
         <div class="skill-card">
             <img src="Tensorflow Keras.png" class="skill-img" alt="Data Visualization">
-            
-            <h1 class="skill-name"> Tensorflow & Keras</h1>
+            <h1 class="skill-name">Tensorflow & Keras</h1>
             <p class="skill-info">Proficient in building and training deep learning models using TensorFlow and Keras for tasks such as classification, regression, image recognition, and natural language processing</p>
         </div>
 
         <div class="skill-card">
             <img src="scikit-learn.png" class="skill-img" alt="Data Visualization">
-            
             <h1 class="skill-name">scikit-Learn</h1>
             <p class="skill-info">Proficient in using scikit-learn to build, train, and evaluate machine learning models for classification, regression, clustering, and dimensionality reduction tasks</p>
         </div>
 
         <div class="skill-card">
             <img src="git.png" class="skill-img" alt="Data Visualization">
-            
             <h1 class="skill-name">Git</h1>
             <p class="skill-info">Proficient in using Git for version control.</p>
         </div>
+        
         <div class="skill-card">
             <img src="github.png" class="skill-img" alt="Data Visualization">
-            
             <h1 class="skill-name">Github</h1>
             <p class="skill-info">Proficient in using GitHub for code hosting, pull requests, and issue tracking.</p>
-
         </div>
 
         <div class="skill-card">
             <img src="postgresql-logo.png" class="skill-img" alt="Data Visualization">
-            
             <h1 class="skill-name">PostgreSQL</h1>
             <p class="skill-info">Proficient in writing advanced SQL queries, optimizing database performance, and using PostgreSQL for complex data analysis and data modeling.</p>
         </div>
 
         <div class="skill-card">
             <img src="spark.png" class="skill-img" alt="Data Visualization">
-            
             <h1 class="skill-name">Spark</h1>
             <p class="skill-info">Skilled in using Apache Spark for large-scale data processing, writing advanced SQL queries,and performing complex data analysis</p>
         </div>
@@ -142,115 +184,145 @@ decision-making. Recognised for strong problem-solving and building end-to-end d
             <h1 class="skill-name">Hadoop</h1>
             <p class="skill-info">Skilled in using Apache Hadoop for large-scale distributed data storage and processing, handling big data workflows, and performing complex data analysis.</p>
         </div>
+        
         <div class="skill-card">
             <img src="kafka.jpg" class="skill-img" alt="Data Visualization">
             <h1 class="skill-name">Kafka</h1>
             <p class="skill-info">Skilled in using Apache Kafka for building real-time data pipelines and streaming applications, handling high-throughput messaging, and integrating data across distributed systems.</p>
         </div>
+        
         <div class="skill-card">
             <img src="airflow.png" class="skill-img" alt="Data Visualization">
             <h1 class="skill-name">Airflow</h1>
-            <p class="skill-info"> Skilled in using Apache Airflow for designing, scheduling, and monitoring automated data workflows, managing ETL pipelines, and orchestrating complex data processes.</p>
+            <p class="skill-info">Skilled in using Apache Airflow for designing, scheduling, and monitoring automated data workflows, managing ETL pipelines, and orchestrating complex data processes.</p>
         </div>
+        
         <div class="skill-card">
             <img src="nosql.jpg" class="skill-img" alt="Data Visualization">
             <h1 class="skill-name">NoSQL</h1>
-            <p class="skill-info"> Skilled in working with NoSQL databases such as MongoDB and Cassandra, designing scalable data models, handling unstructured and semi-structured data, and optimizing database performance for high-volume applications.</p>
-       </div>
-       <div class="skill-card">
-    <img src="sas.png" class="skill-img" alt="SAS">
-    <h1 class="skill-name">SAS</h1>
-    <p class="skill-info">
-        Proficient in using SAS for statistical analysis, data management, and predictive modeling. 
-        Skilled in writing SAS programs for data cleaning, transformation, and reporting to support data-driven decision-making.
-    </p>
-</div>
-    
-    </div>
-</div>
-
-<!-- timeline -->
-<div class="timeline">
-    <h1 class="heading">education and experience</h1>
-
-    <div class="card">
-        <div class="card-body">
-            <h1 class="card-title">2015 - 2019</h1>
-            <strong>High School:</strong> Kgagatlou Secondary School<br><br>
-            <p class="card-detail"><strong>Matric</strong></p>
+            <p class="skill-info">Skilled in working with NoSQL databases such as MongoDB and Cassandra, designing scalable data models, handling unstructured and semi-structured data, and optimizing database performance for high-volume applications.</p>
+        </div>
+       
+        <div class="skill-card">
+            <img src="sas.png" class="skill-img" alt="SAS">
+            <h1 class="skill-name">SAS</h1>
+            <p class="skill-info">
+                Proficient in using SAS for statistical analysis, data management, and predictive modeling. 
+                Skilled in writing SAS programs for data cleaning, transformation, and reporting to support data-driven decision-making.
+            </p>
         </div>
     </div>
-
-    <div class="card">
-        <div class="card-body">
-            <h1 class="card-title">2020 - 2023</h1>
-            <strong>Institution:</strong> University of Limpopo<br><br>
-            <p class="card-detail"><strong>Degree:</strong> Bachelor of Science in Mathematical Science</p>
-
-            <strong>Majors:</strong> Statistics and Computer Science<br><br>
-            
-        </div>
-    </div>
-
-    <div class="card">
-        <div class="card-body">
-            <h1 class="card-title">2024 - 2024</h1>
-            <strong>Institution:</strong> University of Limpopo<br><br>
-            <p class="card-detail"><strong>Degree:</strong> Bachelor of Science Honours in Computer Science</p>
-            <strong>Major:</strong> Computer Science<br><br>
-        </div>
-    </div>
-<div class="card">
-        <div class="card-body">
-            <h1 class="card-title">2025 - Present</h1>
-             <strong>Company:</strong> Mintek<br><br>
-            <p class="card-detail"><strong>Title:</strong> Data Scientist</p>
-        </div>
-    </div>
-</div>
 </section>
 
+<!-- certifications section -->
+<section id="certifications" class="certifications-section">
+    <h1 class="heading">Certifications</h1>
+    <div class="certifications-container">
+        <div class="certification-card">
+            <img src="Data analyst.png" class="certification-img" alt="Certification">
+            <h1 class="certification-name">Data Analyst Professional Certificate</h1>
+            <p class="certification-info">Issued by: IBM</p>
+            <p class="certification-date">Date: 2025</p>
+            <a href="https://www.coursera.org/account/accomplishments/professional-cert/4AHTNV3KBHNL" class="certification-btn" target="_blank">View Certificate</a>
+        </div>
+
+        <div class="certification-card">
+            <img src="data science.png" class="certification-img" alt="Certification">
+            <h1 class="certification-name">Data Science Professional Certificate</h1>
+            <p class="certification-info">Issued by: IBM</p>
+            <p class="certification-date">Date: 2025</p>
+            <a href="https://www.coursera.org/account/accomplishments/professional-cert/6RTDF4KPIAWZ" class="certification-btn" target="_blank">View Certificate</a>
+        </div>
+
+        <div class="certification-card">
+            <img src="machine learning.png" class="certification-img" alt="Certification">
+            <h1 class="certification-name">Machine Learning Professional Certificate</h1>
+            <p class="certification-info">Issued by: IBM</p>
+            <p class="certification-date">Date: 2025</p>
+            <a href="https://www.coursera.org/account/accomplishments/professional-cert/LEAUB0FNBCDB" class="certification-btn" target="_blank">View Certificate</a>
+        </div>
+
+        <div class="certification-card">
+            <img src="data engineering.png" class="certification-img" alt="Certification">
+            <h1 class="certification-name">Data Engineering Professional Certificate</h1>
+            <p class="certification-info">Issued by: IBM</p>
+            <p class="certification-date">Date: 2025</p>
+            <a href="https://www.coursera.org/account/accomplishments/professional-cert/TKCH9IB6LTF4" class="certification-btn" target="_blank">View Certificate</a>
+        </div>
+
+        <div class="certification-card">
+            <img src="Screenshot (84).png" class="certification-img" alt="Certification">
+            <h1 class="certification-name">AWS Cloud Practitioner Essentials Certificate</h1>
+            <p class="certification-info">Issued by: Coursera</p>
+            <p class="certification-date">Date: 2025</p>
+            <a href="https://www.coursera.org/account/accomplishments/verify/Q00W86SI2B8N" class="certification-btn" target="_blank">View Certificate</a>
+        </div>
+
+        <div class="certification-card">
+            <img src="IFRS 9.png" class="certification-img" alt="Certification">
+            <h1 class="certification-name">IFRS9 Expected Credit Loss Model Development and Validation</h1>
+            <p class="certification-info">Issued by: Udemy</p>
+            <p class="certification-date">Date: 2025</p>
+            <a href="https://www.udemy.com/certificate/UC-4395e2ae-aa64-45af-8291-c8ab2e45c945/" class="certification-btn" target="_blank">View Certificate</a>
+        </div>
+        
+        <div class="certification-card">
+            <img src="credit risk.png" class="certification-img" alt="Certification">
+            <h1 class="certification-name">Credit Risk Modeling & Credit Scoring with Machine Learning</h1>
+            <p class="certification-info">Issued by: Udemy</p>
+            <p class="certification-date">Date: 2025</p>
+            <a href="https://www.udemy.com/certificate/UC-03c3566f-ae13-4163-954a-a6d90cc6d39b/" class="certification-btn" target="_blank">View Certificate</a>
+        </div>
+        
+        <div class="certification-card">
+            <img src="Microsoft power bi.png" class="certification-img" alt="Certification">
+            <h1 class="certification-name">Microsoft Power BI Beginner to Advanced Intelligence</h1>
+            <p class="certification-info">Issued by: Udemy</p>
+            <p class="certification-date">Date: 2024</p>
+            <a href="https://www.udemy.com/certificate/UC-b152d342-8449-4f33-9136-856c67d1cd87/" class="certification-btn" target="_blank">View Certificate</a>
+        </div>
+    </div>
+</section>
 
 <!-- Project Section -->
-<section id="projects"class="project-section">
+<section id="projects" class="project-section">
   <h1 class="project-heading">Some of My Projects</h1>
   <h2 class="project-subheading">AI & MACHINE LEARNING PROJECTS</h2>
    <div class="project-container">
   
-
- <!-- Project Card 1 -->
-
- <div class="project-card">
-  <img src="project-2.png" class="project-img" alt="Credit Risk Assessment Image">
-  <div class="project-content">
-    <h1 class="project-title">Project 01</h1>
-    <p class="project-info">
-     In this project, I developed a Credit Risk Assessment Model, this project predicts the credit risk of applicants by classifying them into Default or Not Default categories. Using Python and machine learning algorithms, the model helps financial institutions evaluate creditworthiness, reduce default risk, and make data-driven lending decisions.
-      <a href="https://github.com/TrishadKano/DATA-SCIENCE-PROJECTS/blob/main/MACHINE%20LEARNING/README.md" class="project-btn github" target="_blank">GitHub Repo</a>
+    <!-- Project Card 1 -->
+    <div class="project-card">
+      <img src="project-2.png" class="project-img" alt="Credit Risk Assessment Image">
+      <div class="project-content">
+        <h1 class="project-title">Project 01</h1>
+        <p class="project-info">
+         In this project, I developed a Credit Risk Assessment Model, this project predicts the credit risk of applicants by classifying them into Default or Not Default categories. Using Python and machine learning algorithms, the model helps financial institutions evaluate creditworthiness, reduce default risk, and make data-driven lending decisions.
+        </p>
+        <div class="project-btn-grp">
+          <a href="https://github.com/TrishadKano/DATA-SCIENCE-PROJECTS/blob/main/MACHINE%20LEARNING/README.md" class="project-btn github" target="_blank">GitHub Repo</a>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
  
- <div class="project-card">
-  <img src="project-3.png" class="project-img" alt="Credit Scoring Project Image">
-  <div class="project-content">
-    <h1 class="project-title">Project 02</h1>
-    <p class="project-info">
-       In this project, I built a Credit Scoring model using a Decision Tree Classifier to evaluate applicant creditworthiness. 
-       Unlike credit risk assessment that focuses on <b>Default</b> vs <b>Not Default</b>, this model assigns a credit score
-       based on applicant data, providing an interpretable and transparent scoring system. The process included data exploration, feature preprocessing, 
-       model training, evaluation with key performance metrics, and visualization of decision rules for better understanding of credit behavior.
-    </p>
-    <div class="project-btn-grp">
-      <a href="https://github.com/TrishadKano/DATA-SCIENCE-PROJECTS/blob/main/MACHINE%20LEARNING/README.md" class="project-btn github" target="_blank">GitHub Repo</a>
+    <!-- Project Card 2 -->
+    <div class="project-card">
+      <img src="project-3.png" class="project-img" alt="Credit Scoring Project Image">
+      <div class="project-content">
+        <h1 class="project-title">Project 02</h1>
+        <p class="project-info">
+           In this project, I built a Credit Scoring model using a Decision Tree Classifier to evaluate applicant creditworthiness. 
+           Unlike credit risk assessment that focuses on <b>Default</b> vs <b>Not Default</b>, this model assigns a credit score
+           based on applicant data, providing an interpretable and transparent scoring system. The process included data exploration, feature preprocessing, 
+           model training, evaluation with key performance metrics, and visualization of decision rules for better understanding of credit behavior.
+        </p>
+        <div class="project-btn-grp">
+          <a href="https://github.com/TrishadKano/DATA-SCIENCE-PROJECTS/blob/main/MACHINE%20LEARNING/README.md" class="project-btn github" target="_blank">GitHub Repo</a>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
- 
- 
- 
- <div class="project-card">
+    <!-- Project Card 3 -->
+    <div class="project-card">
       <img src="project-2.png" class="project-img" alt="Project 2 Image">
       <div class="project-content">
         <h1 class="project-title">Project 03</h1>
@@ -259,39 +331,40 @@ decision-making. Recognised for strong problem-solving and building end-to-end d
         </p>
         <div class="project-btn-grp">
           <a href="https://github.com/TrishadKano/DATA-SCIENCE-PROJECTS/blob/main/MACHINE%20LEARNING/README.md" class="project-btn github" target="_blank">GitHub Repo</a>
-       
         </div>
       </div>
     </div>
 
-    <!-- Project Card 2 -->
-      <div class="project-card">
+    <!-- Project Card 4 -->
+    <div class="project-card">
       <img src="project-3.png" class="project-img" alt="Project 3 Image">
       <div class="project-content">
         <h1 class="project-title">Project 04</h1>
         <p class="project-info">
          In this project, I developed a machine learning-based disease prediction system using the Support Vector Machine (SVM) algorithm. SVM was chosen for its effectiveness in handling high-dimensional data and binary classification problems. The system processes healthcare datasets, including attributes such as blood pressure, glucose levels, BMI, age, and more. Data preprocessing included  handling missing values, and feature selection. The trained SVM model was evaluated using metrics like accuracy, precision, recall, and F1-score. The final predictive model was deployed via a clean, interactive interface using Streamlit, enabling real-time predictions and demonstrating the practical impact of SVM in medical diagnostics.
+        </p>
         <div class="project-btn-grp">
           <a href="https://github.com/TrishadKano/DATA-SCIENCE-PROJECTS/blob/main/MACHINE%20LEARNING/README.md" class="project-btn github" target="_blank">GitHub Repo</a>
-          
         </div>
       </div>
     </div>
-<!-- Project Card 3-->
-      <div class="project-card">
+
+    <!-- Project Card 5 -->
+    <div class="project-card">
       <img src="project-4.jpg" class="project-img" alt="Project 4 Image">
       <div class="project-content">
         <h1 class="project-title">Project 05</h1>
         <p class="project-info">
         In this project, I performed customer segmentation using K-Means clustering and Principal Component Analysis (PCA) to identify distinct customer groups based on purchasing behavior, enabling data-driven marketing strategies. The aim is to apply unsupervised learning techniques for segmenting customers into meaningful groups based on behavioral data, supporting personalized marketing and customer retention strategies.
+        </p>
         <div class="project-btn-grp">
           <a href="https://github.com/TrishadKano/DATA-SCIENCE-PROJECTS/blob/main/MACHINE%20LEARNING/README.md" class="project-btn github" target="_blank">GitHub Repo</a>
-          
         </div>
       </div>
     </div>
-     <!-- Project Card 4 -->
-      <div class="project-card">
+
+    <!-- Project Card 6 -->
+    <div class="project-card">
       <img src="project-5.jpg" class="project-img" alt="Project 5 Image">
       <div class="project-content">
         <h1 class="project-title">Project 06</h1>
@@ -300,13 +373,11 @@ decision-making. Recognised for strong problem-solving and building end-to-end d
         </p>
         <div class="project-btn-grp">
           <a href="https://github.com/TrishadKano/DATA-SCIENCE-PROJECTS/blob/main/MACHINE%20LEARNING/README.md" class="project-btn github" target="_blank">GitHub Repo</a>
-          
         </div>
       </div>
     </div>
 
-    <!-- Project Card 5-->
-  
+    <!-- Project Card 7 -->
     <div class="project-card">
       <img src="project-7.jpg" class="project-img" alt="Project 7 Image">
       <div class="project-content">
@@ -316,16 +387,13 @@ decision-making. Recognised for strong problem-solving and building end-to-end d
         </p>
         <div class="project-btn-grp">
           <a href="https://github.com/TrishadKano/DATA-SCIENCE-PROJECTS/blob/main/Udemy%20Courses%20Analysis/README.md" class="project-btn github" target="_blank">GitHub Repo</a>
-        
         </div>
       </div>
     </div>
  
-    
     <h2 class="project-subheading">MICROSOFT POWER BI PROJECTS</h2>
-    <!-- Project Card 1 -->
     
-
+    <!-- Project Card 8 -->
     <div class="project-card">
       <img src="project-6.jpg" class="project-img" alt="Project Image">
       <div class="project-content">
@@ -340,8 +408,7 @@ decision-making. Recognised for strong problem-solving and building end-to-end d
       </div>
     </div>
     
-     <!-- Project Card 2-->
-  
+    <!-- Project Card 9 -->
     <div class="project-card">
       <img src="project-8.jpg" class="project-img" alt="Project 8 Image">
       <div class="project-content">
@@ -356,14 +423,13 @@ decision-making. Recognised for strong problem-solving and building end-to-end d
       </div>
     </div>
 
-    <!-- Project Card 3 -->
-  
+    <!-- Project Card 10 -->
     <div class="project-card">
       <img src="project-9.jpg" class="project-img" alt="Project 9 Image">
       <div class="project-content">
         <h1 class="project-title">Project 03</h1>
         <p class="project-info">
-         This HR Dashboard project aimed at providing Human Resources managers and decision-makers with an interactive, data-driven interface that offers a real-time and comprehensive overview of the organization’s workforce. The dashboard is designed to enable data-informed strategies for managing employee performance, retention, diversity, and recruitment efficiency.
+         This HR Dashboard project aimed at providing Human Resources managers and decision-makers with an interactive, data-driven interface that offers a real-time and comprehensive overview of the organization's workforce. The dashboard is designed to enable data-informed strategies for managing employee performance, retention, diversity, and recruitment efficiency.
         </p>
         <div class="project-btn-grp">
           <a href="https://github.com/TrishadKano/DATA-SCIENCE-PROJECTS/blob/main/POWER%20BI%20PROJECTS/README.md" class="project-btn github" target="_blank">GitHub Repo</a>
@@ -374,21 +440,22 @@ decision-making. Recognised for strong problem-solving and building end-to-end d
 
     <h2 class="project-subheading">SQL PROJECTS</h2>
 
+    <!-- Project Card 11 -->
     <div class="project-card">
       <img src="project-9.jpg" class="project-img" alt="Project 9 Image">
       <div class="project-content">
         <h1 class="project-title">Project 01</h1>
         <p class="project-info">
          This project involves the design and implementation of a Library Management System using SQL. It includes the creation of normalized relational database tables to manage books, borrowers, transactions, and staff. The system supports core operations such as book lending, returns, due date tracking, and fine calculation using SQL queries, views, and stored procedures. It demonstrates the use of SQL for efficient data organization, integrity enforcement, and query optimization in a real-world scenario.
-    </p>
         </p>
         <div class="project-btn-grp">
           <a href="https://github.com/TrishadKano/DATA-SCIENCE-PROJECTS/blob/main/SQL%20PROJECTS/Library%20Management%20System%20Project/README.md" class="project-btn github" target="_blank">GitHub Repo</a>
-         
         </div>
       </div>
     </div>
-<div class="project-card">
+
+    <!-- Project Card 12 -->
+    <div class="project-card">
       <img src="project-9.jpg" class="project-img" alt="Project 9 Image">
       <div class="project-content">
         <h1 class="project-title">Project 02</h1>
@@ -397,27 +464,25 @@ decision-making. Recognised for strong problem-solving and building end-to-end d
         </p>
         <div class="project-btn-grp">
           <a href="https://github.com/TrishadKano/DATA-SCIENCE-PROJECTS/blob/main/SQL%20PROJECTS/Retail%20Sales%20Analysis%20SQL%20Project/README.md" class="project-btn github" target="_blank">GitHub Repo</a>
-        
         </div>
       </div>
     </div>
 
+    <!-- Project Card 13 -->
     <div class="project-card">
       <img src="project-9.jpg" class="project-img" alt="Project 9 Image">
       <div class="project-content">
         <h1 class="project-title">Project 03</h1>
         <p class="project-info">
-         Dive into the data job market! In this project, I used SQL to analyze job listings for data analyst roles, uncovering 💰 top-paying opportunities, 🔥 high-demand skills, and 📈 geographic trends where salary meets demand. The project involved data cleaning, aggregation, and exploration using advanced SQL queries to reveal insights into the most valuable tools, certifications, and industries shaping today’s data-driven workforce.
+         Dive into the data job market! In this project, I used SQL to analyze job listings for data analyst roles, uncovering 💰 top-paying opportunities, 🔥 high-demand skills, and 📈 geographic trends where salary meets demand. The project involved data cleaning, aggregation, and exploration using advanced SQL queries to reveal insights into the most valuable tools, certifications, and industries shaping today's data-driven workforce.
         </p>
         <div class="project-btn-grp">
           <a href="https://github.com/TrishadKano/DATA-SCIENCE-PROJECTS/blob/main/SQL%20PROJECTS/Job%20Analysis/README.md" class="project-btn github" target="_blank">GitHub Repo</a>
-        
         </div>
       </div>
     </div>
-     </div>
+  </div>
 </section>
-
 
 <!-- contact section -->
 <section id="contact" class="contact-section">
@@ -429,26 +494,26 @@ decision-making. Recognised for strong problem-solving and building end-to-end d
 
    <div class="social-icons">
     <div class="Linkedin-Logo">
-  <a href="https://linkedin.com/in/trishad-phogole-48a75b23b" target="_blank" >
-            <img src="linkedin.png" class="skill-img" alt="R">
-</a>
+      <a href="https://linkedin.com/in/trishad-phogole-48a75b23b" target="_blank" >
+        <img src="linkedin.png" class="skill-img" alt="LinkedIn">
+      </a>
       <span class="icon-label">LinkedIn</span>
-        </div>
+    </div>
 
-        <div class="Github-Logo">
-          <a href="https://github.com/TrishadKano?tab=repositories" target="_blank" >
-            <img src="github.png" class="skill-img" alt="R">
-            </a>
+    <div class="Github-Logo">
+      <a href="https://github.com/TrishadKano?tab=repositories" target="_blank" >
+        <img src="github.png" class="skill-img" alt="Github">
+      </a>
       <span class="icon-label">Github</span>
-        </div>
+    </div>
 
-        <div class="Whatsapp-Logo">
-          <a href="https://wa.me/27818872945?text=Hi%20Trishad%2C%20I%20found%20your%20portfolio%20online!" target="_blank" >
-            <img src="social.png" class="skill-img" alt="R">
-            </a>
+    <div class="Whatsapp-Logo">
+      <a href="https://wa.me/27818872945?text=Hi%20Trishad%2C%20I%20found%20your%20portfolio%20online!" target="_blank" >
+        <img src="social.png" class="skill-img" alt="Whatsapp">
+      </a>
       <span class="icon-label">Whatsapp</span>
-        </div>
-        </div>
+    </div>
+  </div>
   </form>
 </section>
 
