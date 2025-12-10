@@ -44,7 +44,7 @@ body.no-scroll {
     margin: 0 10px;
     line-height: 60px;
     transition: .5s;
-    font-size: 15px;
+    font-size: 16px;
     color: #00CED1;
     /*color: #000;*/
     text-align: center;
@@ -98,7 +98,7 @@ body.no-scroll {
 
 .hero-heading{
     color: #e0e0e0;
-    font-size: 80px;
+    font-size: 70px;
     text-transform: capitalize;
     font-weight: 400;
     text-align: center;
