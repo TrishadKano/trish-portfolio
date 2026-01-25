@@ -98,7 +98,7 @@ body.no-scroll {
 
 .hero-heading{
     color: #e0e0e0;
-    font-size: 70px;
+    font-size: 80px;
     text-transform: capitalize;
     font-weight: 400;
     text-align: center;
@@ -113,7 +113,7 @@ body.no-scroll {
     top: 0;
     right: 0;
     height: 120vh;
-    width: 50%;
+    width: 40%;
     object-fit: contain;
     opacity: 0.9;
    
