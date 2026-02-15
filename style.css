@@ -304,7 +304,7 @@ body.no-scroll {
 }
 
 .skills-container{
-    width: 95%;
+    width: 90%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -315,8 +315,8 @@ body.no-scroll {
 .skill-card{
     position: relative;
     border: 1px solid #333;
-    padding: 15px;
-    border-radius: 8px;
+    padding: 10px;
+    border-radius: 5px;
     box-sizing: border-box;
 }
 
