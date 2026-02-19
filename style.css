@@ -30,6 +30,41 @@ body.no-scroll {
     z-index: 9;
     background: #636060bf;
 }
+/* Base link styling */
+.navbar .link a {
+    position: relative;
+    display: inline-block;
+    padding: 8px 16px;
+    transition: color 0.3s ease;
+}
+
+/* Active state */
+.navbar .link.active a {
+    color: black;
+}
+
+/* Click ripple effect */
+.navbar .link a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) scaleX(0);
+    width: 100%;
+    background-color: black;
+    transition: transform 0.3s ease;
+}
+
+.navbar .link a:hover::after,
+.navbar .link.active a::after {
+    transform: translateX(-50%) scaleX(1);
+}
+
+/* Click press effect */
+.navbar .link a:active {
+    transform: scale(0.95);
+    color: black;
+}
 
 .link-group{
     list-style: none;
@@ -302,7 +337,11 @@ body.no-scroll {
     font-weight: 300;
     margin-bottom: 100px;
 }
-
+.heading:hover {
+    background: #00CED1;
+    color: #000;
+    transform: scale(1,1);
+}
 .skills-container{
     width: 90%;
     margin: auto;
